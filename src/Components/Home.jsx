@@ -38,7 +38,7 @@ export default function Home() {
     return (
         <Box
             sx={{
-                backgroundColor: "purple",
+                backgroundColor: "peachpuff",
                 width: "100%",
                 height: "100vh",
                 display: "flex",
