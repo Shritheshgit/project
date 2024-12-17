@@ -3,6 +3,8 @@ import { Box, Grid2, Paper, Typography } from '@mui/material'
 import InsertForm from './InsertForm'
 import List from './List'
 import { MoveToInbox } from '@mui/icons-material';
+import cs from './Images.jsx/cs.png'
+
 
 export default function Home() {
     let initialValue;
@@ -44,6 +46,9 @@ export default function Home() {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
+                backgroundImage:`url(${cs})`,
+                backgroundPosition:"up",
+                backgroundSize:"cover",
             }}
         >
             <Paper sx={{p:5,  fontFamily:"cursive",borderRadius:"20px"}}>
